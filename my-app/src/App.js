@@ -1,23 +1,19 @@
 import logo from './logo.svg';
+import Flew from './componets/header';
+import { Routes, Route, Link, } from "react-router-dom";
+import Sector from './componets/nav'
+
 import './App.css';
+import Sector1 from './componets/sector1';
+import Sector2 from './componets/sector2';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="">
+      <Flew/>
+      <Sector/>
+      <Sector1/>
+      <Sector2/>
     </div>
   );
 }

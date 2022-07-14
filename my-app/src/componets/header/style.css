@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.G-flex{
+    display: flex;
+}
+.G-cont{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.P-art {
+    list-style-type: none;
+    color: black;
+    margin: 15px;
+    /* max-width: 1200px; */
+    width: 100%;
+}
+.P-art span{
+    color: aqua;
+    /* background-color: aqua;
+    width: 1px;
+    height: 1px;
+    border-radius: 180%; */
+}
+.L-arts{
+    max-width: 110px;
+    width: 101px;
+    height: 25px;
+    background-color: pink;
+   /* border-radius: ; */
+   border: 2px solid red;
+}
+.Font_30{
+    font-size: 30px;
+    color: black;
+}
+.Font_18{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.Font_18:hover{
+    color: green;
+
+}
